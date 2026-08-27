@@ -7,5 +7,5 @@ class ArthTest(unittest.TestCase):
         self.assertEqual(sub(10,5),5)
     def test_mul(self):
         self.assertEqual(mul(10,5),50)
-if _name=="main_":
+if __name__=="__main__":
     unittest.main()
